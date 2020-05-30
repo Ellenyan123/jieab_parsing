@@ -1222,7 +1222,7 @@ https://blog.csdn.net/qq_33373858/article/details/90810066
 
 TextRank算法是由 Google 搜索的核心网页排序算法 PageRank 改编而来，利用图模型来提取文章中的关键词，首先介绍一下 PageRank 排序算法
 
-### 一、PageRank 算法
+### (1)PageRank 算法
 ![jupyter](https://img-blog.csdnimg.cn/20190604193542365.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMzMzczODU4,size_16,color_FFFFFF,t_70)
 
 #### PageRank 算法是一种网页排名算法，其基本思想有两条：
@@ -1240,7 +1240,7 @@ TextRank算法是由 Google 搜索的核心网页排序算法 PageRank 改编而
 
 * 初始时，可以设置每个网页的重要性为 1，进行迭代。当S（V）的变化量小于阈值（0.0001）时停止迭代。
 
-### 2、TextRank 算法
+### (2)TextRank 算法
 
 TextRank在构建图的时候将节点由网页改成了句子，并为节点之间的边引入了权值，其中权值表示两个句子的相似程度，本质上构建的是一个带权无向图，其计算公式如下：
 ![jupyter](https://img-blog.csdnimg.cn/20190604193622308.png)
